@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background-color: #d4c8ff;
+}
+
+.container {
+    display: flex;
+    max-width: 1000px;
+    margin: 50px auto;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.left {
+    background-color: #7c6cff;
+    color: white;
+    flex: 1;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left h2 {
+    color: white;
+    font-size: 1.8rem;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.left h2 span {
+    color: #0a0a52;
+    font-weight: bold;
+}
+
+.left img {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: -40px;
+    margin-right: 200px;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.right {
+    background-color: white;
+    flex: 1;
+    padding: 40px 30px;
+}
+
+.right h2 {
+    color: #7c6cff;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.row input {
+    flex: 1;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.checkbox {
+    font-size: 0.85rem;
+    margin-bottom: 15px;
+}
+
+.checkbox input {
+    margin-right: 6px;
+}
+
+button[type="submit"] {
+    padding: 12px;
+    background-color: #7c6cff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 15px;
+    transition: 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #675bcb;
+}
+
+.or {
+    text-align: center;
+    margin: 10px 0;
+    color: #777;
+}
+
+.social-buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.social-buttons button {
+    flex: 1;
+    padding: 10px;
+    font-size: 0.9rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.social-buttons button:hover {
+    background-color: #f0f0f0;
+}
+
+.login-link {
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.login-link a {
+    color: #7c6cff;
+    text-decoration: none;
+}
