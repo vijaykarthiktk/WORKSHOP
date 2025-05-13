@@ -1,0 +1,23 @@
+table {
+    border: solid black 1px;
+    border-radius: 6px;
+}
+
+td,
+th {
+    border-left: solid black 1px;
+    border-top: solid black 1px;
+    min-width: 100px;
+    padding: 5px;
+}
+
+th {
+    border-top: none;
+    background-color: #eee;
+}
+
+td:first-child,
+th:first-child {
+    border-left: none;
+
+}
